@@ -1,13 +1,13 @@
 # SAL-Autarkic-Localization-RSSI-BLE-Dataset
 
-The SAL-Autarkic-Localization-RSSI-BLE-Dataset (SAL-RB-Dataset) is a set of more than 20 000 labeled Received Signal Strength Indicator (RSSI) measurements for indoor localization with Bluetooth Low Energy (BLE). The individual measurement sets are measured in a 100 ms interval. All measurements in this work were obtained at AVL List GmbH in Graz, Austria, who kindly provided us their automotive testbed.
+The SAL-Autarkic-Localization-RSSI-BLE-Dataset (SAL-RB-Dataset) is a set of more than 20 000 labeled Received Signal Strength Indicator (RSSI) measurements for indoor localization with Bluetooth Low Energy (BLE). The individual measurement sets are measured in a 100 ms interval. All measurements in this work were obtained at AVL List GmbH in Graz, Austria, who kindly provided us with their automotive testbed.
 
-The idea is that the position of one sensor node, referred to as measurement-node (MN) should be estimated based on RSSI measurements collected with sniffer-nodes (SN). These SNs have no direct interaction with the MN, they just measure the RSSI values of the messages from the MN sent to the base station.
+The position of one sensor node, referred to as measurement-node (MN) is estimated based on RSSI measurements collected with sniffer-nodes (SN). These SNs have no direct interaction with the MN, they just measure the RSSI values of the messages from the MN sent to the base station.
 
 # Measurement Campaign
 ## Measurement Setup
 
-Ten BLE SNs are places inside and outside the testbed and collect the RSSI values of the messages sent from the MN to the base station. The measurements are sent in a 100 ms interval, hence, the interval of the RSSI measurements is the same. Additionally,  two  photosensors are placed  at  the  doorstep  and  the  car  test-position respectively, to automatically label the measurement sets.  The complete measurement setup is depicted in the following.
+Ten BLE SNs are placed inside and outside the testbed and collect the RSSI values of the messages sent from the MN to the base station. The measurements are sent in a 100 ms interval, hence, the interval of the RSSI measurements is the same. Additionally,  two  photosensors are placed  at  the  doorstep  and  the  car  test-position respectively, to automatically label the measurement sets.  The complete measurement setup is depicted in the following.
 
 <img src="Images/floorplan.png" height="60%" width="60%" >
 
