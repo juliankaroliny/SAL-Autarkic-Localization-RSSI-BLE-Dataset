@@ -39,7 +39,12 @@ If different labeling of the RSSI measurements is needed, the SAL-RB-Dataset add
 
 The individual measurement-sets are named as  `TYPE_sensor_X_measurement_Y.csv`, where TYPE indicates either a car or walk scenario, X defines the used MN, and X is the measurement number.
 
-# Related publications
+# Digital Object Identifier
+This GIT is archived with Zenodo under ..
+
+# Contact
+If you have any comments, questions or feedback please contact
+- Julian Karoliny: julian.karoliny@silicon-austria.com
 
 # License 
 This dataset is distributed under the [Creative Commons Attributions License 4.0 (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
